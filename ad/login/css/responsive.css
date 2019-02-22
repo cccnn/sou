@@ -1,0 +1,160 @@
+﻿/*-----------------------------响应式样式-------------------------------------*/
+/*------------------------------------------------------------480------------------------------------------------------------------------*/
+@media screen and (min-width: 480px){
+body{min-width:480px;font-size:18px;line-height:27px}
+/*------------顶部------------*/
+.header{height:66px;line-height:66px}
+.logo img{width:112.5px}
+.title{padding:0 10.5px;font-size:19.5px}
+.title2{padding:0 10.5px;font-size:15.5px}
+/*------------主体结构------------*/
+.main{padding:66px 0 0}
+/*------------底部------------*/
+.footer{padding:16.5px 0 22.5px}
+/*-----------------------------登录页-------------------------------------*/
+/*------------flash------------*/
+.flash h3{height:45px;line-height:45px;padding:0 22.5px;font-size:21px}
+.num{right:9px;bottom:19.5px;height:7.5px}
+.num span{width:7.5px;height:7.5px;margin:0 3px}
+/*------------登录表单------------*/
+.tit{height:48px;padding:15px 22.5px 0;line-height:48px}
+.tel{height:55.5px;margin:0 0 7.5px}
+.tel input[type=tel]{height:55.5px;padding:0 22.5px;font-size:25.5px}
+.set{padding:0 139.5px 0 0;height:55.5px;line-height:55.5px;margin:0 0 7.5px}
+.set_click{width:139.5px}
+.set input[type=password]{height:55.5px;padding:0 22.5px;font-size:18px}
+.tel:after{right:13.5px;top:13.5px;width:28.5px;height:28.5px}
+.submit{height:55.5px;font-size:18px}
+/*------------第三方帐号登录------------*/
+.third{padding:22.5px 60px 12px}
+.third a{line-height:30px;padding:55.5px 0 0}
+a.weixin{background-position:center -85.5px}
+a.weibo{background-position:center -171px}
+/*-----------------------------登录成功-------------------------------------*/
+.sucess .main{border-width:88.5px 22.5px 0}
+.sucess .footer{height:48px;line-height:48px}
+/*------------成功提示------------*/
+.tip{padding:15px 0 13.5px}
+.tip h3{line-height:40.5px;font-size:30px}
+.tip h3 strong{padding:0 0 0 42px;background-size:28.5px}
+/*------------选择去向------------*/
+.go{padding:0 0 6px}
+.go dt{padding:13.5px 18px 0;line-height:44px}
+.go a{font-size:25px;line-height:55.5px;margin:0 0 7.5px}
+/*------------商家推荐服务------------*/
+.service dt{padding:22.5px 15px 12px;line-height:30px;font-size:21px}
+.ul_service{padding:0 0 22.5px}
+.ul_service li{height:93px;margin:0 0 12px}
+.ul_service a{padding:63px 0 0;height:30px;line-height:30px;font-size:15px}
+.s2{background-position:center -93px}
+.s3{background-position:center -186px}
+/*-----------------------------商家主页-------------------------------------*/
+/*------------活动提示------------*/
+.hd_tip{line-height:45px}
+/*------------服务列表------------*/
+.list{padding:15px 0 4.5px}
+.list li{height:150px}
+.list a{padding:102px 0 0;height:48px;line-height:30px;font-size:18px}
+.l2{background-position:center -150px}
+.l3{background-position:center -300px}
+.l4{background-position:center -450px}
+.l5{background-position:center -600px}
+.l6{background-position:center -750px}
+/*------------免费上网入口------------*/
+.enter{height:55.5px;line-height:55.5px;font-size:24px}
+.enter em{background-size:39px;padding:0 0 0 51px}
+/*-----------------------------广告页-------------------------------------*/
+.ad .footer{line-height:52.5px}
+.skips{bottom:40.5px;height:54px}
+.skip{right:30px;bottom:0px;width:54px;height:54px;font-size:21px;line-height:54px}
+.loading{padding:0 63px 0 0;line-height:37.5px;font-size:21px;background-size:48px;width:105px;margin:0 auto;height:40.5px;top:22.5px}
+.ad_time{right:30px;top:21px;width:37.5px;height:37.5px;line-height:37.5px;border-radius:4.5px}
+/*-----------------------------免认证页-------------------------------------*/
+.free:after{height:195px}
+.free .footer{font-size:15px;bottom:9px}
+.free_enter{font-size:24px;height:54px;line-height:54px;bottom:94.5px}
+.free_enter em{background-size:36px;padding:0 0 0 45px}
+.free_tit{font-size:24px;top:45px;line-height:45px}
+}
+/*------------------------------------------------------------640------------------------------------------------------------------------*/
+@media screen and (min-width: 640px){
+.wrap{width:640px;font-size:24px;line-height:36px}
+/*------------顶部------------*/
+.header{left:auto;width:640px;height:88px;line-height:88px}
+.logo img{width:150px}
+.title{padding:0 14px;font-size:26px}
+.title2{padding:0 14px;font-size:20px}
+/*------------主体结构------------*/
+.main{padding:88px 0 0}
+/*------------底部------------*/
+.footer{padding:22px 0 30px}
+/*-----------------------------登录页-------------------------------------*/
+/*------------flash------------*/
+.flash h3{height:60px;line-height:60px;padding:0 30px;font-size:28px}
+.num{right:12px;bottom:26px;height:10px}
+.num span{width:10px;height:10px;margin:0 4px}
+/*------------登录表单------------*/
+.tit{height:64px;padding:20px 30px 0;line-height:64px}
+.tel{height:74px;margin:0 0 10px}
+.tel input[type=tel]{height:74px;padding:0 30px;font-size:34px}
+.set{padding:0 186px 0 0;height:74px;line-height:74px;margin:0 0 10px}
+.set_click{width:186px}
+.set input[type=password]{height:74px;padding:0 30px;font-size:24px}
+.tel:after{right:18px;top:18px;width:38px;height:38px}
+.submit{height:74px;font-size:24px}
+/*------------第三方帐号登录------------*/
+.third{padding:30px 80px 16px}
+.third a{line-height:40px;padding:74px 0 0}
+a.weixin{background-position:center -114px}
+a.weibo{background-position:center -228px}
+/*-----------------------------登录成功-------------------------------------*/
+.sucess .main{border-width:118px 30px 0}
+.sucess .footer{height:64px;line-height:64px}
+/*------------成功提示------------*/
+.tip{padding:20px 0 18px}
+.tip h3{line-height:54px;font-size:40px}
+.tip h3 strong{padding:0 0 0 56px;background-size:38px}
+/*------------选择去向------------*/
+.go{padding:0 0 8px}
+.go dt{padding:18px 24px 0;line-height:66px}
+.go a{font-size:30px;line-height:74px;margin:0 0 10px}
+/*------------商家推荐服务------------*/
+.service dt{padding:30px 20px 16px;line-height:40px;font-size:28px}
+.ul_service{padding:0 0 30px}
+.ul_service li{height:124px;margin:0 0 16px}
+.ul_service a{padding:84px 0 0;height:40px;line-height:40px;font-size:20px}
+.s2{background-position:center -124px}
+.s3{background-position:center -248px}
+/*-----------------------------商家主页-------------------------------------*/
+/*------------活动提示------------*/
+.hd_tip{line-height:60px}
+/*------------服务列表------------*/
+.list{padding:20px 0 6px}
+.list li{height:200px}
+.list a{padding:136px 0 0;height:64px;line-height:40px;font-size:25px}
+.l2{background-position:center -200px}
+.l3{background-position:center -400px}
+.l4{background-position:center -600px}
+.l5{background-position:center -800px}
+.l6{background-position:center -1000px}
+/*------------免费上网入口------------*/
+.enter{height:74px;line-height:74px;font-size:32px}
+.enter em{background-size:52px;padding:0 0 0 68px}
+/*-----------------------------广告页-------------------------------------*/
+.ad .footer{line-height:70px}
+.skips{bottom:54px;height:72px;width:640px}
+.skip{right:40px;bottom:0;width:72px;height:72px;font-size:28px;line-height:72px}
+.loading{padding:0 84px 0 0;line-height:50px;font-size:28px;background-size:64px;width:140px;margin:0 auto;height:54px;top:30px}
+.ad_time{right:40px;top:28px;width:50px;height:50px;line-height:50px;border-radius:6px}
+/*-----------------------------免认证页-------------------------------------*/
+.free:after{height:260px}
+.free .footer{font-size:20px;bottom:12px}
+.free_enter{font-size:32px;height:72px;line-height:72px;bottom:126px}
+.free_enter em{background-size:48px;padding:0 0 0 60px}
+.free_tit{font-size:32px;top:60px;line-height:60px}
+}
+/*------------------------------------------------------------pc------------------------------------------------------------------------*/
+@media screen and (min-width: 642px){
+.wrap:before{position:absolute;content:"";left:-1px;top:0;height:100%;width:1px;z-index:10}
+.wrap:after{position:absolute;content:"";right:-1px;top:0;height:100%;width:1px;z-index:10}
+}

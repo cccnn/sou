@@ -1,0 +1,109 @@
+﻿/*-----------------------------基础样式-------------------------------------*/
+dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,span,a,input,textarea,p,blockquote,th,td,header,nav,footer,article,section,aside,time,figure{margin:0;padding:0;-webkit-tap-highlight-color:rgba(0,0,0,0)}
+h1,h2,h3,h4,h5,h6{font-size:14px;font-weight:normal}
+ul{list-style:none}
+legend{display:none}
+fieldset,img{border:none;vertical-align:middle}
+em,cite,i{font-style:normal}
+input,button,textarea{outline:none;border:0;vertical-align:middle;border:0;font-family:Microsoft YaHei}
+input[type="submit"],input[type="reset"],input[type="button"],button {-webkit-appearance:none;border-radius:0}
+select{-webkit-appearance:none;-moz-appearance:none;appearance:none}
+textarea{resize:none}
+html{height:100%}
+body{font:12px/18px Microsoft YaHei;position:relative;margin:0 auto;color:#000;min-width:320px;word-break:break-all;height:100%}
+body a{color:#000;text-decoration:none;cursor:pointer}
+body a:hover,body a:active,body a:focus{text-decoration:none;outline:none;-webkit-tap-highlight-color:rgba(0,0,0,0)}
+/*-----------------------------全站头底-------------------------------------*/
+.wrap{width:100%;margin:0 auto;position:relative;min-height:100%}
+/*------------顶部------------*/
+.header{height:44px;line-height:44px;position:fixed;top:0;left:0;width:100%;z-index:100}
+.logo{position:absolute;left:0;top:0}
+.logo img{width:75px;vertical-align:top}
+.title{text-align:right;padding:0 7px;font-size:13px;font-weight:bold}
+.title2{text-align:right;padding:0 7px;font-size:10px;font-weight:bold}
+/*------------主体结构------------*/
+.main{padding:44px 0 0}
+/*------------底部------------*/
+.footer{padding:11px 0 15px;text-align:center}
+/*-----------------------------登录页-------------------------------------*/
+/*------------flash------------*/
+.flash{height:180px;position:relative;overflow:hidden}
+.flash ul{height:100%}
+.flash li{float:left;width:100%;height:100%;position:relative}
+.flash img{width:100%;height:100%}
+.flash h3{position:absolute;left:0;bottom:0;background:rgba(0,0,0,0.8);height:30px;line-height:30px;padding:0 15px;-webkit-box-sizing:border-box;box-sizing:border-box;width:100%;color:#fff;font-size:14px;font-weight:bold}
+.num{position:absolute;right:6px;bottom:13px;height:5px}
+.num span{float:left;width:5px;height:5px;margin:0 2px;background:#586169;border-radius:50%}
+.num span.swiper-active-switch{background-color:#fff}
+/*------------登录表单------------*/
+.tit{height:32px;padding:10px 15px 0;line-height:32px}
+.tel{height:37px;position:relative;margin:0 0 5px}
+.tel input[type=tel]{width:100%;height:37px;padding:0 15px;font-size:17px;color:#8596a5;-webkit-box-sizing:border-box;box-sizing:border-box}
+.set{padding:0 94px 0 0;height:37px;position:relative;line-height:37px;text-align:center;margin:0 0 5px}
+.set_click{position:absolute;right:0;top:0;height:100%;width:93px;overflow:hidden}
+.password{display:block;width:100%;height:100%}
+.set input[type=password]{width:100%;height:37px;vertical-align:top;padding:0 15px;-webkit-box-sizing:border-box;box-sizing}
+.tel:after{position:absolute;right:9px;top:9px;width:19px;height:19px;content:"";background-size:100%}
+.true:after{background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACYAAAAmCAYAAACoPemuAAADAklEQVRYw9WYz0sUYRjHPzs6UrlZmhiEIJjo1oiBBiLetIMHMYMo0kRizYM1FPQHhFrHTlMR6p4iLApchMiDKAYhJVZKI7b0A8EuIWbLHsIJ7eC7ta26vbPOrPa9DfM+7/uZ93nneZ/n8ZCENEMtBU4A1UAxkA94xesIMA+EgBfAsKlb7+yu4bEB4wXaAT9w1OY6M0AA6DF1K+IImGao6UAHcB3IYWtaBDqBu6Zu/UwaTDPUIuARUI6zeg2cNXXrw2YDlARQ9cCkC1CIOd+INeTBNENtAgaALNyTFxjQDPW8lCs1Q20QUAqp0QpwytStwU3BNEMtFu7zklpFgApTt0LrXCn+vv5tgIq6tV8wrDtjHS4ddDs/xOW/XCmC55wDcWqrWgQKTN2KRHesfQdAIRjaY13pd2slxaNw0tfChfJrZGbslTHxA3g0Qy0DptyBSuNGbS8NvrVQNfwxyNVnZ2RMjylATSqgAA7nHJE1r1GAqlRArbLKvYmbslNUKYBPZmRhto/awgZ2q5lJQXWNXuJp6KEsmC9dJHkJVZp3nAenn5OmpPN+YZq2YB3ffizYgnps9tnZ9HxFJtKXH6omTVkLyiW5ZfQ1DpG9K1cKqnO0wy4UgFfqoh75NEhk+fvv53i4RFBPzEBy51RcoAk1H/6MP1i3IdyBPQcdhwIiHs1Qp4Ayqbw/r4JA4xDejH1/ZlgO483IchIKYFoBZmVHm18n1+2cC1AAswowbsdiIziHoQDGFWDErlU8nMNQACPRtMdMolakYH8R9SVNvJofY+LLmFNQM6ZuadGMMQDcsjvD3NIH7rzscvpGC8SmPT0iSdtuLQqWNTBRtnfvALDuaAshNvLfFhXydumtYPhPyjfh0hDQLIrQVGkFaI6F2rBFICri1hTBrQCt8VV4wm6PZqiNwH0X3RoBWkzdCibThioW1bkbbahz8e6TakPFnLlK4Aqw5ADQkpirMhHUP3csbveygDbgomydEJstAL1An6lbYRkDTzKfvUlzOJr/hHGgOfwLZ0csPM+WpWcAAAAASUVORK5CYII=)}
+.false:after{background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACYAAAAmCAYAAACoPemuAAADpUlEQVRYw9WY20sUURzHP2empKdFCrytmAnaRZPoYhelHnroISKw2qDLm0OKVtJL/0MQhGUp01vig10hol6LrnYhSktXqBDX20PIPok1TA/nrDuzrs3Mqmt9YWB3zu835zu/35zv+Z2fICBsQ88FKoDtwG5gA1AAhJRJHBgHBoBXwDsgKkxrKsg8IgChYuAUcBCoC/g+z4FHQJcwrZFFIWYb+grgHNAMlLEwfAPagTZhWr8zJmYbejVwFdjL4uIZcFaY1qfAxGxDr1ekilgajCpy93wTsw29QZFaxdJiWpG76UnMNvSjwK0skHKSOy1M6868xGxD3wI8Vss/mxgHDji/OeEglQM8BXaxPHgJ7BemNQ2gOQZalpEUwB4lS8wSsw29CDjr6bq6BLYdgVC+/+lC+dJndYkf6ybFZTZiJ4DSv7qsWQstD6ChC1qfQLjSe5pwlbRt6JK+a0q9PErV7oJmG3oIOOw5SdlOKK4GfSUUb4YzPVC4cX77wk3Q2CNt9ZXSt6zGT9QO2YYe0tSG7O0x9Bxi/cn/Beuh+Z6cOBXFm6H5LuRXJO/F+uUzvFEDbNDUB5/jaT41CjdPwkQ0eS+vXEYlXOVOX2OPHEtgIip9p0b9EMsBajSg1veHHOuDzuMwOTSXXMF6eaWSmhySPrG+ICt0t7AN/T2wNdDCLtwETbclkVmJHEym2HnvxjEY+xJUOj5oGW3SY1+gM+KOXCJirkhFMiEFkKc5Ks9giPVDe30yUq4NZlCOORdLMIS0BWm1bWc25gOaqtGDI1wJLffd6XOmteW+PxFOj7imCrZgKNwoBda5+sYH3WnNK/cW4fkxqQHRYJGqksLqjNREFK7Xy8upcwkRduqcPwxowItA6UunUx2RZMQ6Iul1LlhaX2nAa2DG0zS3CBq63dtMgpRTPGN9c8nlV0jfXF/KNAP0JlLZ62leXud+64QkjHyeazvyGdqPuNMarpTP8EYvMKAJ04oDD71PhG9g5BNYv+TEnREY+/p3Ee6ISFvrl/T91uuH2ENhWnGhCsUSVVaXehaK63bIKiE+4b9QLK+D72/h57CX9Q9gnzCtYWfNfwG4zPLiojCtS6k1/zW1EJYLL4E2V80PIExrBmhSR6lsYxxoSpyQUiOGMK2PwHl1CM0WptP1MeZs4sK0etSJaTqLpO78302Vf7oNldK4a1ULYzEadzeAKwtq3C1Bq7NbmNawHwcR9JVTmsO16ne65nBUVS4ZNYf/AIzZRY87Xth5AAAAAElFTkSuQmCC)}
+.submit{height:37px;width:100%;font-size:14px}
+/*------------第三方帐号登录------------*/
+.third{padding:15px 40px 8px}
+.third ul{display:-webkit-box;display:-ms-flexbox;display:-moz-box;display:flex;-ms-flex-direction:row}
+.third li{-webkit-box-flex:1;-moz-box-flex:1;-ms-flex:1;flex:1;text-align:center}
+.third a{display:inline-block;line-height:20px;padding:37px 0 0;background:url(../images/third.png) no-repeat;background-size:auto 300%}
+a.qq{background-position:center top}
+a.weixin{background-position:center -57px}
+a.weibo{background-position:center -114px}
+/*-----------------------------登录成功-------------------------------------*/
+.sucess .main{border-width:59px 15px 0;border-style:solid;padding:0}
+.sucess .footer{height:32px;line-height:32px;padding:0}
+/*------------成功提示------------*/
+.tip{padding:10px 0 9px;text-align:center}
+.tip h3{line-height:27px;font-size:20px}
+.tip h3 strong{font-weight:normal;background:url(../images/sucess.png) no-repeat left center;padding:0 0 0 28px;background-size:19px}
+/*------------选择去向------------*/
+.go{padding:0 0 4px}
+.go dt{padding:9px 12px 0;line-height:33px}
+.go a{font-size:15px;display:block;line-height:37px;margin:0 0 5px;text-align:center}
+/*------------商家推荐服务------------*/
+.service dt{padding:15px 10px 8px;line-height:20px;font-size:14px}
+.ul_service{padding:0 0 15px}
+.ul_service:after{clear:both;display:block;content:"";visibility:hidden}
+.ul_service li{float:left;width:33.3%;text-align:center;height:62px;margin:0 0 8px}
+.ul_service a{display:block;padding:42px 0 0;height:20px;line-height:20px;font-size:10px;background-image:url(../images/service.png);background-repeat:no-repeat;background-size:auto 300%}
+.s1{background-position:center top}
+.s2{background-position:center -62px}
+.s3{background-position:center -124px}
+/*-----------------------------商家主页-------------------------------------*/
+/*------------活动提示------------*/
+.hd_tip{text-align:center;line-height:30px}
+/*------------服务列表------------*/
+.list{padding:10px 0 3px}
+.list:after{clear:both;content:"";display:block;visibility:hidden}
+.list li{float:left;height:100px;width:33.3%}
+.list a{display:block;padding:68px 0 0;height:32px;line-height:20px;text-align:center;background-image:url(../images/list.png);background-repeat:no-repeat;background-size:auto 600%;font-size:12.5px}
+.l1{background-position:center top}
+.l2{background-position:center -100px}
+.l3{background-position:center -200px}
+.l4{background-position:center -300px}
+.l5{background-position:center -400px}
+.l6{background-position:center -500px}
+/*------------免费上网入口------------*/
+.enter{display:block;height:37px;line-height:37px;text-align:center;font-size:16px}
+.enter em{background:url(../images/wifi.png) no-repeat left center;background-size:26px;padding:0 0 0 34px;display:inline-block}
+/*-----------------------------广告页-------------------------------------*/
+.ad{position:relative;max-width:640px;margin:0 auto;padding:0}
+.fimg img{width:100%}
+.ftext{position:absolute;left:0;top:0;width:100%;height:100%}
+.ad .footer{position:absolute;bottom:0;left:0;width:100%;text-align:center;line-height:35px;padding:0}
+.skips{position:fixed;width:100%;bottom:27px;height:36px}
+.skip{position:absolute;right:20px;bottom:0;display:block;border-radius:50%;width:36px;height:36px;font-size:14px;line-height:36px;text-align:center;z-index:10}
+.loading{text-align:center;padding:0 42px 0 0;line-height:25px;font-size:14px;background:url(../images/loading.png) no-repeat right center;background-size:32px;width:70px;top:15px;height:27px;position:relative;margin:0 auto}
+.ad_time{position:absolute;right:20px;top:14px;width:25px;height:25px;line-height:25px;text-align:center;border-radius:3px}
+/*-----------------------------免认证页-------------------------------------*/
+.free:after{content:"";left:0;bottom:0;height:130px;width:100%;background:rgba(0,0,0,0.6);position:absolute}
+.free .footer{font-size:10px;bottom:6px;z-index:10}
+.free_enter{font-size:16px;font-weight:bold;display:block;height:36px;line-height:36px;text-align:center;bottom:63px;width:100%;position:absolute;left:0;z-index:10}
+.free_enter em{display:inline-block;background:url(../images/free_enter.png) no-repeat left center;background-size:24px;padding:0 0 0 30px}
+.free_tit{font-size:16px;line-height:30px;text-align:center;position:relative;top:30px}

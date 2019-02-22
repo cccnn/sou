@@ -1,0 +1,50 @@
+﻿/*-----------------------------色调皮肤样式-------------------------------------*/
+body{background-color:#d7d7d7}
+.wrap{background-color:#eff2f4;color:#95a4b1}
+.wrap:before,.wrap:after{background:#dadfe4}
+/*------------顶部------------*/
+.header{background:#7CB031;color:#fff}
+/*------------登录表单------------*/
+.tit{border-bottom:#dadfe4 1px solid;color:#6d8192}
+.tel{border-bottom:#dadfe4 1px solid}
+.tel input[type=tel]{background:#fff;color:#8496a4}
+.set{border-top:#dadfe4 1px solid;border-bottom:#dadfe4 1px solid;background:#fff}
+.set_click{border-left:#dadfe4 1px solid}
+.password{color:#999}
+.ok{color:#6aad4e}
+.going{color:#999}
+.set input[type=password]{color:#8596a5}
+.submit{background:#7CB031;color:#fff}
+.wrong{background:#c00b12}
+/*------------第三方帐号登录------------*/
+.third{background:#fff;border-bottom:#dadfe4 1px solid}
+.third a{color:#a4b1bc}
+/*------------登录成功------------*/
+.sucess{background:#636363}
+.sucess .main{border-color:#636363;background:#f0f0f0}
+.sucess .footer{background:#636363;color:#fff}
+.tip{background:#fff;border-bottom:#a4a4a4 1px solid;color:#333}
+.tip h3{color:#fe6504}
+.go{border-bottom:#a4a4a4 1px solid}
+.go dt{color:#333}
+.go a{color:#fff;background:#7CB031}
+.service dt{color:#333}
+.ul_service a{color:#333}
+/*------------商家主页------------*/
+.shop{background:#ececec}
+.shop .footer{background:#ececec;color:#333}
+/*------------活动提示------------*/
+.hd_tip{color:#f3a356;border-bottom:#cdcdcd 1px solid}
+/*------------服务列表------------*/
+.list a{color:#5c5c5c}
+/*------------免费上网入口------------*/
+.enter{color:#fff;background:#7CB031}
+/*------------广告页------------*/
+.ad .footer{color:#7a7a64}
+.skip{color:#fff;background:#bf2a24}
+.loading{color:#fff}
+.ad_time{background:rgba(0,0,0,0.2);color:#fff;border:#474b4d 1px solid}
+/*------------免认证页------------*/
+.free .footer{color:white}
+.free_enter{color:#fff;background:rgba(255,255,255,0.2);border-top:#888 1px solid;border-bottom:#888 1px solid}
+.free_tit{color:white}

@@ -357,7 +357,7 @@ a {
 .mywth{
     position: absolute;
     left: 20px;
-    top: 25px;
+    top: 15px;
 }
 
 @media (max-width: 640px) {
@@ -400,7 +400,7 @@ a {
 
     .home,
     #menu {
-        top: 1px;
+        top: 10px;
     }
 
     .mywth {

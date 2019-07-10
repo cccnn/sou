@@ -357,7 +357,7 @@ a {
 .mywth{
     position: absolute;
     left: 20px;
-    top: 15px;
+    top: 14px;
 }
 
 @media (max-width: 640px) {
@@ -405,7 +405,7 @@ a {
 
     .mywth {
         left: 20px;
-        top: 20px;
+        top: 18px;
     }
 
     .mywth.hidden {

@@ -46,8 +46,7 @@ var _hmt = _hmt || [];
             <li><a rel="nofollow" href="https://translate.google.cn/" target="_blank"><i class="iconfont icon-fanyi" style="color: #148bfe;"></i>谷歌翻译</a></li>
 			<li><a rel="nofollow" href="https://www.znds.com/" target="_blank"><i class="iconfont icon-znds" style="color: #148bfe;"></i>智能电视</a></li>
             <li><a rel="nofollow" href="https://m.client.10010.com/sma-lottery/qpactivity/qingpiindex" target="_blank"><i class="iconfont icon-qingdao" style="color: #2a0;"></i>青岛啤酒</a></li>
-            <li><a rel="nofollow" href="http://www.lsjgcx.com" target="_blank"><i class="iconfont icon-lsjgcx" style="color:#065fe3;"></i>历史价格</a></li>	
-			<li><a rel="nofollow" href="https://music.yyv.me/" target="_blank"><i class="iconfont icon-yinle" style="color:#f4a;"></i>在线音乐</a></li>
+            <li><a rel="nofollow" href="http://www.lsjgcx.com" target="_blank"><i class="iconfont icon-lsjgcx" style="color:#065fe3;"></i>历史价格</a></li>		  
           <!------>
             <li class="title"><i class="iconfont icon-gouwuche"></i> 购物</li>
             <li><a rel="nofollow" href="https://www.taobao.com" target="_blank"><i class="iconfont icon-taobao" style="color: #ff6019;"></i>淘宝网</a></li>
@@ -71,7 +70,7 @@ var _hmt = _hmt || [];
 			<li><a rel="nofollow" href="https://www.youtube.com/" target="_blank"><i class="iconfont icon-youtube" style="color:#f03;"></i>Youtube</a></li>
             <li><a rel="nofollow" href="https://cccnn.github.io/d/jx/" target="_blank"><i class="iconfont icon-yunbo" style="color:#0bf;"></i>视频解析</a></li>
             <li><a rel="nofollow" href="https://www.kankanwu.com/" target="_blank"><i class="iconfont icon-kankanwu" style="color:#09e;"></i>看看屋</a></li>
-            <li><a rel="nofollow" href="https://www.dy2018.com/" target="_blank"><i class="iconfont icon-dytt" style="color:#f4a;"></i>电影天堂</a></li>
+            <li><a rel="nofollow" href="https://music.yyv.me/" target="_blank"><i class="iconfont icon-yinle" style="color:#f4a;"></i>音乐解析</a></li>
           <!------>
             <li class="title"><i class="iconfont icon-msg"></i> 社交</li>
             <li><a rel="nofollow" href="https://www.weibo.com" target="_blank"><i class="iconfont icon-weibo" style="color: #e6162d;"></i>微博</a></li>
@@ -92,8 +91,8 @@ var _hmt = _hmt || [];
             <li class="title"><i class="iconfont icon-sheji"></i> 设计</li>
             <li><a rel="nofollow" href="https://www.easyicon.net/" target="_blank"><i class="iconfont icon-easyicon"></i>easyicon</a></li>
             <li><a rel="nofollow" href="https://818ps.com/" target="_blank"><i class="iconfont icon-tuguaishou" style="color:#e02;"></i>图怪兽</a></li>
-            <li><a rel="nofollow" href="https://www.58pic.com/" target="_blank"><i class="iconfont icon-58pic" style="color:#4bc685;"></i>千图网</a></li>
-            <li><a rel="nofollow" href="https://www.51zxw.net/" target="_blank"><i class="iconfont icon-51zxw" style="color:#e48;"></i>自学网</a></li>
+            <!-- <li><a rel="nofollow" href="https://www.behance.net/" target="_blank"><i class="iconfont icon-behance" style="color:#56f;"></i>Behance</a></li> -->
+            <!-- <li><a rel="nofollow" href="https://www.dribbble.com/" target="_blank"><i class="iconfont icon-dribbble" style="color:#e48;"></i>Dribbble</a></li> -->
             <!-- <li><a rel="nofollow" href="https://huaban.com/" target="_blank"><i class="iconfont icon-huaban" style="color:#f06;"></i>花瓣</a></li> -->
             <!-- <li><a rel="nofollow" href="https://www.zcool.com.cn/" target="_blank"><i class="iconfont icon-zhanku" style="color:#f90;"></i>站酷</a></li> -->
             <li><a rel="nofollow" href="https://www.iconfont.cn/" target="_blank"><i class="iconfont icon-iconfont" style="color: #ff6019;"></i>阿里图标</a></li>
@@ -177,31 +176,31 @@ var _hmt = _hmt || [];
                天气插件版权备注到这里：心知天气版权所有；
                需要请到：https://www.seniverse.com/widget/  
             */
-            <!-- $("#tp-weather-widget").mouseover(function(event) { -->
-                <!-- $("span:contains('心知天气')").parent().remove(); -->
-            <!-- }); -->
-            <!-- $(".mywth").click(function(event) { -->
-                <!-- window.location.href="https://tianqi.qq.com/"; -->
-            <!-- }); -->
+            $("#tp-weather-widget").mouseover(function(event) {
+                $("span:contains('心知天气')").parent().remove();
+            });
+            $(".mywth").click(function(event) {
+                window.location.href="https://tianqi.qq.com/";
+            });
         });
         </script>
 
 <!--天气插件开始-->
-<!-- <script>(function(T,h,i,n,k,P,a,g,e){g=function(){P=h.createElement(i);a=h.getElementsByTagName(i)[0];P.src=k;P.charset="utf-8";P.async=1;a.parentNode.insertBefore(P,a)};T["ThinkPageWeatherWidgetObject"]=n;T[n]||(T[n]=function(){(T[n].q=T[n].q||[]).push(arguments)});T[n].l=+new Date();if(T.attachEvent){T.attachEvent("onload",g)}else{T.addEventListener("load",g,false)}}(window,document,"script","tpwidget","./js/chameleon.js"))</script> -->
-<!-- <script>tpwidget("init", { -->
-    <!-- "flavor": "slim", -->
-    <!-- "location": "WWE0TGW4PX6N", -->
-    <!-- "geolocation": "enabled", -->
-    <!-- "language": "zh-chs", -->
-    <!-- "unit": "c", -->
-    <!-- "theme": "chameleon", -->
-    <!-- "container": "tp-weather-widget", -->
-    <!-- "bubble": "enabled", -->
-    <!-- "alarmType": "badge", -->
-    <!-- "uid": "UFFFC70B02", -->
-    <!-- "hash": "8ca5fdc919e446872f170fb32648c78c" -->
-<!-- }); -->
-<!-- tpwidget("show");</script> -->
+<script>(function(T,h,i,n,k,P,a,g,e){g=function(){P=h.createElement(i);a=h.getElementsByTagName(i)[0];P.src=k;P.charset="utf-8";P.async=1;a.parentNode.insertBefore(P,a)};T["ThinkPageWeatherWidgetObject"]=n;T[n]||(T[n]=function(){(T[n].q=T[n].q||[]).push(arguments)});T[n].l=+new Date();if(T.attachEvent){T.attachEvent("onload",g)}else{T.addEventListener("load",g,false)}}(window,document,"script","tpwidget","./js/chameleon.js"))</script>
+<script>tpwidget("init", {
+    "flavor": "slim",
+    "location": "WWE0TGW4PX6N",
+    "geolocation": "enabled",
+    "language": "zh-chs",
+    "unit": "c",
+    "theme": "chameleon",
+    "container": "tp-weather-widget",
+    "bubble": "enabled",
+    "alarmType": "badge",
+    "uid": "UFFFC70B02",
+    "hash": "8ca5fdc919e446872f170fb32648c78c"
+});
+tpwidget("show");</script>
 <!--天气插件结束-->
         <div class="foot">© 2019 by <a href="https://cccnn.github.io/ip">Mr.zxv</a> All rights reserved.</div>
     </div>
